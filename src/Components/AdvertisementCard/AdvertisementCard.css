@@ -1,0 +1,34 @@
+.advertisement-сard {
+    padding: 10px;
+    width: 200px;
+}
+
+.advertisement-сard__image {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+}
+
+.advertisement-сard__placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #777;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.advertisement-сard__name {
+    font-size: 18px;
+    color: #00aaff;
+
+    &:hover {
+        color: #ff6163;
+    }
+}
